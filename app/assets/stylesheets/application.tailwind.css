@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+  /* body {
+    scroll-behavior: smooth !important;
+    @apply scroll-smooth;
+
+  } */
+
+  html {
+    @apply bg-pandablack;
+    @apply scroll-smooth !important;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth !important;
+    @apply text-pandawhite;
+  }
+
+  .Title-Nav {
+    font-family: BOBCAT;
+    src: url("app/assets/stylesheets/BOBCAT.TTF") format("TrueType");
+  }
+}
