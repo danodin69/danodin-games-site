@@ -1,5 +1,5 @@
 Rails.application.routes.draw do 
-  get 'games/index'
+  get 'games', to:"games#index", as: :games
   get 'contact/index'
   get 'about/index'
 

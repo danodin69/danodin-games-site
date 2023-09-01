@@ -5,7 +5,7 @@
         <span class="sr-only">Open main menu</span>
         <img src="https://cdn-eu.icons8.com/4-KnR6g-MES0hPuopQkZ0A/dvbdz_EP2UWlKa3z4jMJng/Group_4_Copy.png">
     </button>
-  <a href="#" class="flex items-center">
+  <a href="/" class="flex items-center">
       <%= image_tag "panda_with_shades_and_moon.png", class:"h-8 mr-3", alt:"Panda with moon"%>
       <span class="Title-Nav self-center lg:pr-28 text-2xl font-semibold whitespace-nowrap dark:text-white">Dan Odin</span>
   </a>
@@ -34,7 +34,7 @@
   <div class="items-center justify-between hidden mobile-menu w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
     <ul class="flex flex-col p-4 md:p-0 mt-4 font-semibold text-1xl lg:text-2xl md:flex-row md:space-x-8 md:mt-0 md:border-0 ">
       <li>
-        <a href="#" class="block py-2 pl-3 pr-4 text-pandawhite rounded md:bg-transparent md:p-0 hover:bg-pandablue md:hover:bg-transparent md:hover:text-pandablue" aria-current="page">GAMES</a>
+        <%= link_to "GAMES",games_path, class:"block py-2 pl-3 pr-4 text-pandawhite rounded md:bg-transparent md:p-0 hover:bg-pandablue md:hover:bg-transparent md:hover:text-pandablue"%>
       </li>
       <li>
         <a href="#" class="block py-2 pl-3 pr-4 text-pandawhite hover:bg-pandablue md:hover:bg-transparent md:hover:text-pandablue rounded md:p-0 ">ABOUT</a>
