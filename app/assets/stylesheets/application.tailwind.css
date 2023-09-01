@@ -24,4 +24,14 @@
     font-family: BOBCAT;
     src: url("app/assets/stylesheets/BOBCAT.TTF") format("TrueType");
   }
+
+  .locus-txt {
+    font-family: American Captain;
+    src: url("app/assets/stylesheets/AmericanCaptain.ttf") format("TrueType")
+  }
+
+  .king-cards-txt {
+    font-family: varieté;
+    src: url("app/assets/stylesheets/VarieteColege-96lZ.ttf") format("TrueType")
+  }
 }
