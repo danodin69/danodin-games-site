@@ -1,0 +1,2 @@
+module LocusBlasterPageHelper
+end

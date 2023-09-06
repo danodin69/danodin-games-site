@@ -1,0 +1,2 @@
+class KingdomsAndCardsController < ApplicationController
+end
