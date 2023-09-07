@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;800&display=swap');
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -22,17 +20,17 @@
 
   .Title-Nav {
     font-family: BOBCAT !important;
-    src: asset-url("BOBCAT.TTF");
+    src: font-url("BOBCAT.TTF");
   }
 
   .locus-txt {
     font-family: American Captain !important;
-    src: asset-url("AmericanCaptain.ttf");
+    src: font-url("AmericanCaptain.ttf");
   }
 
   .king-cards-txt {
     font-family: varieté !important;
-    src: asset-url("VarieteColege-96lZ.ttf");
+    src: font-url("VarieteColege-96lZ.ttf");
   }
 
 
