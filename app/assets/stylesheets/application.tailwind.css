@@ -22,17 +22,17 @@
 
   .Title-Nav {
     font-family: BOBCAT !important;
-    src: url("app/assets/stylesheets/BOBCAT.TTF") format("TrueType");
+    src: asset-url("BOBCAT.TTF");
   }
 
   .locus-txt {
     font-family: American Captain !important;
-    src: url("app/assets/stylesheets/AmericanCaptain.ttf") format("TrueType")
+    src: asset-url("AmericanCaptain.ttf");
   }
 
   .king-cards-txt {
     font-family: varieté !important;
-    src: url("app/assets/stylesheets/VarieteColege-96lZ.ttf") format("TrueType")
+    src: asset-url("VarieteColege-96lZ.ttf");
   }
 
 
