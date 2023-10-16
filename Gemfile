@@ -71,6 +71,7 @@ group :test do
   gem "webdrivers"
 end
 
+gem "meta-tags"
 
 gem "tailwindcss-rails", "~> 2.0"
 
