@@ -2,7 +2,7 @@ module ApplicationHelper
 
     def default_meta_tags
         {
-          site: 'danodin.xyz',
+          site: 'danodin.com',
           title: 'Dan Odin Games',
           reverse: true,
           separator: '|',
@@ -15,7 +15,7 @@ module ApplicationHelper
             { href: image_url('panda_with_shades_and_moon.png'), rel: 'apple-touch-icon', sizes: '180x180', type: 'image/png' },
           ],
           og: {
-            site_name: 'danodin.xyz',
+            site_name: 'danodin.com',
             title: 'Dan Odin Games',
             description: 'Dan Odin — The Best Game Developer based in Lagos Nigeria, Africa ', 
             type: 'website',
