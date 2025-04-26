@@ -8,6 +8,8 @@ Rails.application.routes.draw do
   get 'games/kingdoms&cards', to: "kingdoms_and_cards#game", as: :kingdoms_and_cards
 
   get 'privacy_policy',to:'privacy_policy#index'
+
+  match '*path', to: 'application#render_404', via: :all
   
 
   root to: 'home#index'
